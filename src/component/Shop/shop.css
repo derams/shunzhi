@@ -1,0 +1,21 @@
+.shop{
+  display: flex;
+  justify-content: space-around;
+}
+.bun{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.shop img{
+  padding-bottom: 20px;
+
+}
+.shop button{
+  background-color: #FF5252;
+  border:0;
+  color:white;
+}
+.shop .active{
+  background-color: #F8BBD0;
+}

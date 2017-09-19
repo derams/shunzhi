@@ -1,0 +1,12 @@
+.app{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #000;
+  height: 100vh;
+}
+.app img{
+  width: 150px;
+  height: 150px;
+}
