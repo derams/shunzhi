@@ -9,12 +9,13 @@
 }
 .shop img{
   padding-bottom: 20px;
-
 }
 .shop button{
   background-color: #FF5252;
   border:0;
   color:white;
+  line-height: 40px;
+  font-size: 25px;
 }
 .shop .active{
   background-color: #F8BBD0;
