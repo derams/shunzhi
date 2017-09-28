@@ -8,7 +8,7 @@ class Shop extends Component {
   render(){
     const shop = this.props.shops.map(t=>(
       <div key={t.id} className='bun'>
-        <img src={t.img} alt=""/>
+        <img src={t.post} alt=""/>
         <button onClick={()=>this.handleAdd(t.id)} className={t.buy&&'active'}>{this.props.complete(t.buy)}</button>
       </div>
     ))
